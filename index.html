@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom JS</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" type="module" defer></script>
+</head>
+<body>
+    <article class="product js-product">
+        <div class="product__images js-images">
+            <a target="_blank" href="/img/adrienne_zoom.jpg" data-medium="/img/adrienne.jpg" class="active">
+                <img src="/img/adrienne_mini.jpg" alt="photo d'un chat noir et blanc">
+            </a>
+            <a target="_blank" href="/img/knight_zoom.jpg" data-medium="/img/knight.jpg">
+                <img src="/img/knight_min.jpg" alt="photo d'un chien type husky">
+            </a>
+            <a target="_blank" href="/img/obama_zoom.jpg" data-medium="/img/obama.jpg">
+                <img src="/img/obama_min.jpg" alt="photo d'un cheval isabelle">
+            </a>
+            <a target="_blank" href="/img/lilou_zoom.jpg" data-medium="/img/lilou.jpg">
+                <img src="/img/lilou_min.jpg" alt="photo d'un chat écaille de tortue">
+            </a>
+            <a target="_blank" href="/img/merlin_zoom.jpg" data-medium="/img/merlin.jpg">
+                <img src="/img/merlin_mini.jpg" alt="photo d'un chien chocolat">
+            </a>
+        </div>
+        <div class="product__image">
+            <img src="/img/adrienne.jpg" class="js-image-medium">
+            <div class="product__magnifier js-magnifier"></div>
+        </div>
+        <div class="product__info">
+            <h1>Kirin Photographie</h1>
+            <p>
+                Photographe animalier<br />
+                Séances chez vous ou en extérieur<br />
+                Tarifs sur demande
+            </p>
+        </div>
+        <div class="product__zoom js-zoom">
+            <img src="data:," class="js-image-zoom">
+        </div>
+    </article>
+</body>
+</html>
